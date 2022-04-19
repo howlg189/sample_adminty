@@ -14,12 +14,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="#">
-    <meta name="keywords" content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+    <meta name="keywords"
+        content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
     <meta name="author" content="#">
     <!-- Favicon icon -->
 
     <link rel="icon" href="libraries\assets\images\favicon.ico" type="image/x-icon">
-    <!-- Google font--><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
     <!-- Required Fremwork -->
     <link rel="stylesheet" type="text/css" href="libraries\bower_components\bootstrap\css\bootstrap.min.css">
     <!-- themify-icons line icon -->
@@ -33,21 +35,41 @@
 <body class="fix-menu">
     <!-- Pre-loader start -->
     <div class="theme-loader">
-    <div class="ball-scale">
-        <div class='contain'>
-            <div class="ring"><div class="frame"></div></div>
-            <div class="ring"><div class="frame"></div></div>
-            <div class="ring"><div class="frame"></div></div>
-            <div class="ring"><div class="frame"></div></div>
-            <div class="ring"><div class="frame"></div></div>
-            <div class="ring"><div class="frame"></div></div>
-            <div class="ring"><div class="frame"></div></div>
-            <div class="ring"><div class="frame"></div></div>
-            <div class="ring"><div class="frame"></div></div>
-            <div class="ring"><div class="frame"></div></div>
+        <div class="ball-scale">
+            <div class='contain'>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
     <!-- Pre-loader end -->
     <section class="login-block">
         <!-- Container-fluid starts -->
@@ -56,17 +78,20 @@
                 <div class="col-sm-12">
                     <!-- Authentication card start -->
                     <form class="md-float-material form-material">
-                        <div class="text-center">
-                            <img src="libraries\assets\images\logo.png" alt="logo.png">
-                        </div>
+
                         <div class="auth-box card">
                             <div class="card-block">
-                                <div class="row m-b-20">
+                                <div class="row m-b-20" style="justify-content: center;">
+                                    <div class="text-center">
+                                        <!-- <img src="libraries\assets\images\logo.png" alt="logo.png"> -->
+                                        <img src="libraries\assets\images\araon\araon_logo.png" alt="logo.png"
+                                            style="width: 150px;">
+                                    </div>
                                     <div class="col-md-12">
-                                        <h3 class="text-center txt-primary">Sign In</h3>
+                                        <h3 class="text-center txt-primary">로그인</h3>
                                     </div>
                                 </div>
-                                <div class="row m-b-20">
+                                <!-- <div class="row m-b-20">
                                     <div class="col-md-6">
                                         <button class="btn btn-facebook m-b-20 btn-block"><i class="icofont icofont-social-facebook"></i>facebook</button>
                                     </div>
@@ -74,13 +99,15 @@
                                         <button class="btn btn-twitter m-b-20 btn-block"><i class="icofont icofont-social-twitter"></i>twitter</button>
                                     </div>
                                 </div>
-                                <p class="text-muted text-center p-b-5">Sign in with your regular account</p>
+                                <p class="text-muted text-center p-b-5">Sign in with your regular account</p> -->
                                 <div class="form-group form-primary">
-                                    <input type="text" name="user-name" class="form-control" required="" placeholder="Username">
+                                    <input type="text" name="user-name" class="form-control" required=""
+                                        placeholder="아이디">
                                     <span class="form-bar"></span>
                                 </div>
                                 <div class="form-group form-primary">
-                                    <input type="password" name="password" class="form-control" required="" placeholder="Password">
+                                    <input type="password" name="password" class="form-control" required=""
+                                        placeholder="비밀번호">
                                     <span class="form-bar"></span>
                                 </div>
                                 <div class="row m-t-25 text-left">
@@ -88,33 +115,36 @@
                                         <div class="checkbox-fade fade-in-primary">
                                             <label>
                                                 <input type="checkbox" value="">
-                                                <span class="cr"><i class="cr-icon icofont icofont-ui-check txt-primary"></i></span>
-                                                <span class="text-inverse">Remember me</span>
+                                                <span class="cr"><i
+                                                        class="cr-icon icofont icofont-ui-check txt-primary"></i></span>
+                                                <span class="text-inverse">로그인 정보 저장하기</span>
                                             </label>
                                         </div>
                                         <div class="forgot-phone text-right f-right">
-                                            <a href="auth-reset-password.htm" class="text-right f-w-600"> Forgot Password?</a>
+                                            <a href="auth-reset-password.htm" class="text-right f-w-600">비밀번호 찾기</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row m-t-30">
                                     <div class="col-md-12">
-                                        <button type="button" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20">LOGIN</button>
-                                        
+                                        <button type="button"
+                                            class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20">로그인</button>
+
                                     </div>
                                 </div>
-                                <p class="text-inverse text-left">Don't have an account?<a href="auth-sign-up-social.htm"> <b class="f-w-600">Register here </b></a>for free!</p>
+                                <p class="text-inverse text-left"><a href="auth-sign-up-social.htm"> <b
+                                            class="f-w-600">회원가입</b></a></p>
                             </div>
                         </div>
                     </form>
-                        <!-- end of form -->
-                    </div>
-                    <!-- Authentication card end -->
+                    <!-- end of form -->
                 </div>
-                <!-- end of col-sm-12 -->
+                <!-- Authentication card end -->
             </div>
-            <!-- end of row -->
-        
+            <!-- end of col-sm-12 -->
+        </div>
+        <!-- end of row -->
+
         <!-- end of container-fluid -->
     </section>
     <!-- Warning Section Starts -->
@@ -173,19 +203,21 @@
     <script type="text/javascript" src="libraries\bower_components\modernizr\js\css-scrollbars.js"></script>
     <!-- i18next.min.js -->
     <script type="text/javascript" src="libraries\bower_components\i18next\js\i18next.min.js"></script>
-    <script type="text/javascript" src="libraries\bower_components\i18next-xhr-backend\js\i18nextXHRBackend.min.js"></script>
-    <script type="text/javascript" src="libraries\bower_components\i18next-browser-languagedetector\js\i18nextBrowserLanguageDetector.min.js"></script>
+    <script type="text/javascript"
+        src="libraries\bower_components\i18next-xhr-backend\js\i18nextXHRBackend.min.js"></script>
+    <script type="text/javascript"
+        src="libraries\bower_components\i18next-browser-languagedetector\js\i18nextBrowserLanguageDetector.min.js"></script>
     <script type="text/javascript" src="libraries\bower_components\jquery-i18next\js\jquery-i18next.min.js"></script>
     <script type="text/javascript" src="libraries\assets\js\common-pages.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'UA-23581568-13');
-</script>
+        gtag('config', 'UA-23581568-13');
+    </script>
 </body>
 
 </html>
